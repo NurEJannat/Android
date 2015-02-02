@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/btnLayoutId"
+        android:gravity="center">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:text="@string/btn_text_camera"
+            android:onClick="dispatchTakePictureIntent"
+            android:layout_margin="10dp"
+            android:background="#50FFFFFF"
+            android:textColor="@android:color/holo_blue_light"
+            />
+    </LinearLayout>
+    
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/app_name" 
+        android:layout_below="@id/btnLayoutId"
+        android:id="@+id/ivPhotoView"
+        />
+
+</RelativeLayout>

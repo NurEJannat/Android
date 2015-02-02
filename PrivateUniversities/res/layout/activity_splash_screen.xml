@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/images">
+    
+    <TextView
+        android:id="@+id/textPrivateUniversity"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.00"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="@string/textPrivateUniversity"
+        android:textColor="#FF3378"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+        
+        <TextView android:id="@+id/textHeaderFirstLine"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/textHeaderFirstLine"
+            android:textSize="20sp"
+            android:textColor="#00FF40"
+            android:gravity="center"
+            android:textStyle="bold"/>
+        
+       
+        
+    
+
+</LinearLayout>
