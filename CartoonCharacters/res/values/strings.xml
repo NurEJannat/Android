@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CartoonCharacters</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    
+    
+      <string name="textHeaderFirstLine">Cartoon Characters</string>
+      
+      
+    <string name="register">Register</string>
+    <string name="retrieve">Retrieve</string>
+    
+     <string name="takaaphoto">Take A Photo</string>
+    <string name="Captureaphoto">Capture Photo</string>
+    <string name="latitude">Latitude</string>
+    <string name="longtitude">Longtitude</string>
+    <string name="remarks">Remarks</string>
+    <string name="Save">SAVE INFO</string>
+    
+      <string name="header">Person Profile</string>
+    <string name="myCurrentLocation">Current Location</string>
+    
+     <string name="time">Time</string>
+     <string name="distance">Distance</string>
+     <string name="date">Date</string>
+     
+      <string name="description">Description</string>
+       <string name="lat">Lat</string>
+        <string name="longi">Longi</string>
+        
+        
+          <string name="ln">Longtitude</string>
+            <string name="distan">Distance</string>
+              <string name="desc">description</string>
+    
+   
+</resources>
