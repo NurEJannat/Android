@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+         android:background="@drawable/greybak">
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="10dp"
+    android:orientation="vertical" 
+     android:background="@drawable/greybak"  >
+
+    
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical" 
+                 android:background="#003333" >
+
+            <TextView
+                android:id="@+id/header"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+               
+                android:gravity="center"
+                android:text="@string/show_Doctor_header"
+                android:textColor="#ffffff"
+                android:textSize="25sp" />
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.35"
+            android:textColor="#000000"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/textName" />
+
+        <TextView
+            android:id="@+id/viewDoctorName"
+            android:layout_width="0dp"
+            android:textColor="#000000"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.65"
+            android:ems="10"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.35"
+            android:layout_marginLeft="20dp"
+            android:textColor="#000000"
+            android:text="@string/tvSpeciality" />
+
+        <TextView
+            android:id="@+id/viewDoctorSpecility"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:layout_weight="0.65"
+            android:ems="10"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="32dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.35"
+            android:layout_marginLeft="20dp"
+            android:textColor="#000000"
+            android:text="@string/tvPhone" />
+
+        <TextView
+            android:id="@+id/viewDoctorPhone"
+            android:layout_width="0dp"
+            android:textColor="#000000"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.65"
+            android:ems="10"
+            />
+
+        <ImageView
+            android:id="@+id/view_img_call"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5dp"
+            android:layout_weight="0.11"
+            android:background="#ffffff"
+            android:src="@drawable/ca" />
+
+        <ImageView
+            android:id="@+id/view_img_message"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#6c3A17"
+            android:src="@drawable/ms" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="27dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.35"
+            android:textColor="#000000"
+            android:layout_marginLeft="20dp"
+            android:text="@string/emailTextView" />
+
+        <TextView
+            android:id="@+id/viewDoctorEmail"
+            android:layout_width="0dp"
+            android:textColor="#000000"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.65"
+            android:ems="10"
+           
+            />
+
+        <ImageView
+            android:id="@+id/view_img_Email"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#6c3A17"
+            android:src="@drawable/il" />
+
+    </LinearLayout>
+
+    
+
+    
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.35"
+            android:textColor="#000000"
+            android:layout_marginLeft="20dp"
+            android:text="@string/chamberTextView" />
+
+        <TextView
+            android:id="@+id/viewDoctorChamber"
+            android:layout_width="0dp"
+            android:textColor="#000000"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.65"
+            android:ems="10"
+           />
+    </LinearLayout>
+
+ 
+
+        
+    
+</LinearLayout>
+</ScrollView>
